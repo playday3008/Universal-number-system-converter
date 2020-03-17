@@ -10,7 +10,7 @@ And you got answer : 1,0,0,11
 
 1,0,0,11 = 100b
 
-Words in numbers(for 10< systems):
+Words in numbers(for systems>10):
 
 | **Letters**   | **Numbers**   |
 | ------------- |:-------------:|
