@@ -2,7 +2,9 @@
 #include<ctime>
 #include<string>
 #include <fstream>
-#define A cout<<"PlayDay\n"
+#define A cout<<"Goodbye\n" P "PlayDay\n" W
+#define P   "\x1b[35m"
+#define W   "\x1B[0m"
 #include <stdlib.h>
 #include<limits>
 #include<cmath>
@@ -10,7 +12,6 @@ using namespace std;
 
 int main()
 {
-    A;
     setlocale(LC_ALL, "");
     cout << "Sponsor of this program - one night without sleep and Starbucks coffee!" << endl;
     int number_system_zkad, number_system_dokad, wwod = 0;
@@ -315,4 +316,5 @@ int main()
     }
     link_end:
     A;
+    system("pause");
 }
