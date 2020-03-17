@@ -2,12 +2,11 @@
 #include<ctime>
 #include<string>
 #include <fstream>
-#define A cout<<"Goodbye\n" P "PlayDay\n" W
-#define P   "\x1b[35m"
-#define W   "\x1B[0m"
+#define A cout<< "Goodbye\n" << termcolor::magenta << "PlayDay" << termcolor::reset << endl
 #include <stdlib.h>
 #include<limits>
 #include<cmath>
+#include"../include/termcolor/termcolor.hpp"
 using namespace std;
 
 int main()

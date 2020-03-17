@@ -149,6 +149,9 @@
   <ItemGroup>
     <ClCompile Include="Windows.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\termcolor\termcolor.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
