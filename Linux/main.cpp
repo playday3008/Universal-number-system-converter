@@ -12,13 +12,13 @@ int main()
 {
     A;
     setlocale(LC_ALL, "");
-    cout << "Sponsor tego programu - jedna noc bez snu i kawa Starbucks!" << endl;
+    cout << "Sponsor of this program - one night without sleep and Starbucks coffee!" << endl;
     int number_system_zkad, number_system_dokad, wwod = 0;
     bool a = true, minus = false, debug = true;
     long int number, num10 = 0;
     string str, stralfa, str_proverk, str_dokad, str_wwod;
-    cout << "Write the system with which and in which to move(work only with int)" << endl;
-    cout << "(skad)" << endl;
+    cout << "Write the system with which and in which to move(work only with int(from 2 to 1,999,999,999))" << endl;
+    cout << "(from)" << endl;
     while (true) {
         bool a = false;
         cin >> str_wwod;
@@ -60,7 +60,7 @@ int main()
             break;
         }
     }
-    cout << "(dokad)" << endl;
+    cout << "(to)" << endl;
     while (true) {
         bool a = false;
         cin >> str_wwod;
