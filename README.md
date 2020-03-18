@@ -10,6 +10,10 @@ And you got answer : 1,0,0,11
 
 1,0,0,11 = 100b
 
+### New function
+
+#### If you want convert to Roman system, just write "r" in "(to)" step
+
 Words in numbers(for systems>10):
 
 | **Letters**   | **Numbers**   |
