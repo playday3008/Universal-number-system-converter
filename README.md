@@ -72,4 +72,4 @@ Words in numbers(for systems>10):
 | **IDK\***       | **1,999,999,998**|
 | **IDK\***       | **1,999,999,999**|
 
-IDK - i dont know
+\*IDK - i dont know
