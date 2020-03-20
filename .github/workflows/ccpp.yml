@@ -1,0 +1,35 @@
+name: C/C++ CI
+
+on: [pull_request, push]
+
+jobs:
+  buildwindows:
+
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup MSBuild.exe
+      uses: warrenbuckley/Setup-MSBuild@v1
+    - name: MSBuild Windows
+      working-directory: Windows
+      run: msbuild Windows.vcxproj /p:Configuration=Release /p:VisualStudioVersion=16.0 /v:m
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Release Windows
+        path: Release/Windows.exe
+  
+  buildlinux:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - name: MSBuild Linux
+      working-directory: Linux
+      run: g++ main.cpp -o Linux.out
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Release Linux
+        path: Linux/Linux.out
+    
