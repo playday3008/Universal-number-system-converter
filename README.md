@@ -1,6 +1,8 @@
 # Universal-number-system-converter
 Actually not universal because this converter can't convert from/to Unary system
 
+[How to compile on linux\(Getting Started from VS\)](https://playday3008.github.io/Universal-number-system-converter)
+
 If you want enter words
 Ex. 1f4b in Hexadecimal(16) system, and convert to Vigesimal(20) system
 
