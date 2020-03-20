@@ -17,7 +17,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: Release Windows
-        path: Release/Windows.exe
+        path: Windows/Release/Windows.exe
   
   buildlinux:
 
@@ -25,7 +25,7 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    - name: MSBuild Linux
+    - name: Build Linux
       working-directory: Linux
       run: g++ main.cpp -o Linux.out
     - uses: actions/upload-artifact@v1
